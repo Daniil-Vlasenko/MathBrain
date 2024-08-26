@@ -52,6 +52,9 @@ a {
 .subtitle {
   text-align: center;
 }
+.intro {
+  text-align: justify;
+}
 .text {
   text-align: justify;
 }
@@ -113,5 +116,11 @@ a {
 @media (max-width: 550px) {
   p {  
     font-size: 1em;
+    font-weight: 400;
+  }
+
+  a {  
+    /* text-decoration: none; */
+    font-weight: 500;
   }
 }
