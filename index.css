@@ -65,7 +65,7 @@ a {
   margin-right: auto;
   /* padding-top: 1em; */
   display: grid;
-  grid-template-columns: min-content min-content min-content;
+  grid-template-columns: max-content max-content max-content;
   column-gap: 1em;
 }
 
